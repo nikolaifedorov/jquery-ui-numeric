@@ -1,0 +1,35 @@
+{
+  "name": "jquery-ui-numeric",
+  "version": "1.4.2",
+  "main": "./jquery-ui-numeric.js",
+  "homepage": "https://github.com/nikolaifedorov/jquery-ui-numeric",
+  "authors": [
+    "Tony Kramer"
+  ],
+  "description": "This widget allows you to turn any text 
+      or number input box into a numeric \"up/down\" picker. 
+      Users can use keyboard arrow keys or page up/down keys to adjust the number, 
+      or they can click the up/down buttons that are added to the right of the input. 
+      You are also able to format the way the number is displayed in the input 
+      so that a specific numeric format is enforced.",
+  "keywords": [
+    "jquery",
+    "jquery-ui",
+    "numeric"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*.json",
+    "*.txt",
+    ".*",
+    "!MIT-LICENSE.txt",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.2",
+    "jquery-ui": ">=1.8.6",
+    // "jquery.ui.core": ">=1.8.6",
+    // "jquery.ui.widget": ">=1.8.6",
+    // "jquery.ui.button": ">=1.8.6"
+  }
+}
